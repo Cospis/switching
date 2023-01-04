@@ -1,5 +1,12 @@
 const DataModal = () => {
-  return <h1>DataModal Component</h1>;
+  return (
+    <select>
+      <option value="select">Select...</option>
+      <option value="Data">Data</option>
+      <option value="Data">Data</option>
+      <option value="Data">Data</option>
+    </select>
+  );
 };
 
 export default DataModal;

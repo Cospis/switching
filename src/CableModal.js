@@ -1,5 +1,12 @@
 const CableModal = () => {
-  return <h1>CableModal Component</h1>;
+  return (
+    <select>
+      <option value="select">Select...</option>
+      <option value="Cable">Cable</option>
+      <option value="Cable">Cable</option>
+      <option value="Cable">Cable</option>
+    </select>
+  );
 };
 
 export default CableModal;
